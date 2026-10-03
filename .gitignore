@@ -1,0 +1,77 @@
+# =============================================================================
+# Omada Controller
+# =============================================================================
+
+# Omada persistent application data
+data/
+
+# Omada logs
+logs/
+
+# Docker volumes / runtime data
+*.log
+
+# =============================================================================
+# Docker
+# =============================================================================
+
+# Local Docker environment files
+.env
+.env.*
+
+# Keep example environment files if you create them
+!.env.example
+
+# =============================================================================
+# OS / Editor Files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# =============================================================================
+# Temporary / Backup Files
+# =============================================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+
+# =============================================================================
+# Secrets
+# =============================================================================
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Local credentials
+credentials*
+secrets*
